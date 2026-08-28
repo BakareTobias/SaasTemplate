@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %} Bomb - {{ block.super }} {% endblock title %}
+{% block content %}
+    <p>Welcome Home</p>
+
+    {% include 'snippets/welcome-user-msg.html' %}
+
+{% endblock content %}
