@@ -6,4 +6,8 @@
 
     {% include 'snippets/welcome-user-msg.html' %}
 
+    <p>This page Visits: {{ page_visit_count }}</p>
+    <p>Total Visits: {{ total_visit_count }}</p>
+    <p>You spent {{ visits_on_this_page }}% of your visits on this page</p>
+
 {% endblock content %}
